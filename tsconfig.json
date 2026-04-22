@@ -6,5 +6,5 @@
     "moduleResolution": "bundler",
     "strict": false
   },
-  "include": ["src"]
+  "include": ["."]
 }
