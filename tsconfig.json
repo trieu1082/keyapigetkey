@@ -4,7 +4,8 @@
     "module": "ES2022",
     "outDir": "dist",
     "moduleResolution": "bundler",
-    "strict": false
+    "strict": false,
+    "types": ["node"]
   },
   "include": ["."]
 }
