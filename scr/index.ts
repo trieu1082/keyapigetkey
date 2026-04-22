@@ -214,6 +214,7 @@ document.body.innerHTML="<h2 style='color:red;text-align:center'>KEY EXPIRED</h2
 </body>
 </html>
 `)
+})
 
 app.get("/v1/getkey",async c=>{
 let hwid=(c.req.query("hwid")||"").trim()
