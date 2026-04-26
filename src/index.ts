@@ -44,7 +44,7 @@ if(j.status==="success") return j.shortenedUrl
 return url
 }
 
-app.get("/",c=>c.text("ok"))
+app.get("/",c=>c.text("work gravitybub key api 🗿👽🗿🗿👽🗿🗿"))
 
 app.get("/key",async c=>{
 let id=(c.req.query("id")||"").trim()
